@@ -25,7 +25,6 @@ export default function AboutUs() {
             >
               <img
                 src=""
-                alt="about"
                 className={
                   styles["about-us-container-intro-right-part-first-img"]
                 }
@@ -38,14 +37,12 @@ export default function AboutUs() {
             >
               <img
                 src=""
-                alt="about-second"
                 className={
                   styles["about-us-container-intro-right-part-second-imgs"]
                 }
               />
               <img
                 src=""
-                alt="about-part"
                 className={
                   styles["about-us-container-intro-right-part-second-imgs"]
                 }
@@ -85,3 +82,4 @@ export default function AboutUs() {
     </div>
   );
 }
+
