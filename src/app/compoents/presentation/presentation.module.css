@@ -1,0 +1,124 @@
+.presentation-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  background: linear-gradient(225deg, rgb(10, 15, 71) 50%, rgb(52, 1, 68));
+  padding: 40px 80px;
+}
+.presentation-description {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 30px;
+  flex: 1;
+}
+.presentation-description h3 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.presentation-description p {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.presentation-btn {
+  padding: 10px 20px;
+  opacity: 1;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  max-width: 600px;
+}
+.presentation-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+}
+.presentatin-image-left {
+  width: 50%;
+}
+.presentation-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.presentatin-image-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.presentation-img-right {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 210px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .presentation-container {
+    align-items: stretch;
+    justify-content: center;
+  }
+  .presentation-description {
+    gap: 20px;
+  }
+  .presentation-description h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .presentation-description p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .presentation-img {
+    height: 300px;
+    border-radius: 4px;
+  }
+  .presentation-img-right {
+    height: 135px;
+  }
+}
+@media (max-width: 767px) {
+  .presentation-container {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+  }
+  .presentation-description {
+    gap: 20px;
+  }
+  .presentation-description h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .presentation-description p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .presentation-image {
+    width: 100%;
+  }
+  .presentation-img {
+    height: 224px;
+    border-radius: 4px;
+  }
+  .presentation-img-right {
+    height: 100px;
+  }
+}
